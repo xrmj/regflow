@@ -1480,7 +1480,7 @@
 
     .footer-grid {
       display: grid;
-      grid-template-columns: 1.8fr 1fr 1fr;
+      grid-template-columns: 1.4fr 1fr 1.6fr;
       gap: 60px;
       padding: 64px 0 48px;
     }
@@ -1562,6 +1562,16 @@
       gap: 12px;
       list-style: none;
       padding: 0;
+    }
+
+    .footer-col ul.footer-legal-links {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      column-gap: 24px;
+      row-gap: 12px;
+    }
+
+    .footer-col ul.footer-legal-links a {
+      white-space: nowrap;
     }
 
     .footer-col a {
@@ -2725,6 +2735,293 @@
           <h4>12. Contact</h4>
           <p>Questions about these Terms can be sent to service@aiclona.com.</p>
         </article>
+        <article class="legal-card" id="refund-policy">
+          <h3>Refund Policy</h3>
+          <span class="legal-meta">Last updated: August 2026</span>
+          <p>This Refund Policy describes the conditions under which Aiclona subscription fees paid through this portal may be refunded. By purchasing a subscription plan you agree to the terms below. If you do not agree, please do not complete the purchase.</p>
+
+          <h4>1. Scope</h4>
+          <p>This policy applies to Monthly, Quarterly, and Yearly subscription plans purchased through the pricing section of this portal. It does not apply to charges assessed by third-party model, embedding, storage, or infrastructure providers you connect to your Aiclona deployment, which are governed by their own refund terms.</p>
+
+          <h4>2. 7-Day Money-Back Guarantee</h4>
+          <p>New subscribers may request a full refund within seven (7) calendar days of the initial purchase for any reason. To be eligible, the request must be submitted from the email address used at purchase, and no material policy violation may have occurred during the trial period.</p>
+
+          <h4>3. Refunds After the 7-Day Window</h4>
+          <p>After the 7-day window has passed, subscription fees are generally non-refundable. In the following exceptional circumstances a partial or pro-rated refund may be granted at our sole discretion:</p>
+          <ul>
+            <li>A sustained service outage attributable to the Aiclona portal that prevents you from accessing your subscription entitlements.</li>
+            <li>Duplicate charges caused by a payment-processing error on our side.</li>
+            <li>Billing for a plan that was cancelled in writing before the renewal date but was not honoured by our system.</li>
+          </ul>
+
+          <h4>4. Cases That Are Not Eligible</h4>
+          <p>Refunds will not be granted for:</p>
+          <ul>
+            <li>Change of mind or lack of use after the 7-day window.</li>
+            <li>Fees already consumed within a completed billing cycle.</li>
+            <li>Charges from third-party LLM, embedding, storage, or hosting providers connected to your deployment.</li>
+            <li>Accounts terminated for violation of the Terms of Service or Acceptable Use policy.</li>
+            <li>Losses caused by incorrect configuration, misuse, or the inherent limitations of retrieval-augmented generation outputs.</li>
+          </ul>
+
+          <h4>5. How to Request a Refund</h4>
+          <p>To request a refund, send an email to service@aiclona.com from the address associated with the subscription. Please include the plan name, order date, the last four digits of the payment card used, and a brief description of the reason for the request. We will review each request and respond within five (5) business days.</p>
+
+          <h4>6. Processing Time and Method</h4>
+          <p>Approved refunds are returned to the original payment method. Depending on your bank or card issuer, funds may take between five (5) and fifteen (15) business days to appear on your statement after the refund has been processed on our side. Refunds are issued in the currency of the original charge; foreign-exchange differences arising from your bank are not reimbursed.</p>
+
+          <h4>7. Cancellation of Recurring Plans</h4>
+          <p>You may cancel a recurring plan at any time to prevent future renewals. Cancellation stops the next billing cycle and leaves the current paid period active until its natural end. Cancellation on its own does not constitute a refund request; if you also wish to request a refund, please follow the process in Section 5.</p>
+
+          <h4>8. Changes to This Policy</h4>
+          <p>We may update this Refund Policy to reflect changes in our subscription offerings or applicable regulations. The revised policy applies to purchases made after the revision date shown at the top of this section; existing subscriptions remain governed by the version in effect at the time of purchase.</p>
+
+          <h4>9. Contact</h4>
+          <p>Questions about this Refund Policy can be sent to service@aiclona.com.</p>
+        </article>
+        <article class="legal-card" id="subscription-agreement">
+          <h3>Subscription Agreement</h3>
+          <span class="legal-meta">Last updated: August 2026</span>
+          <p>This Subscription Agreement governs your purchase and ongoing use of paid Aiclona subscription plans offered through this portal. By subscribing to a Monthly, Quarterly, or Yearly plan you accept the terms below, together with the Terms of Service, Privacy Policy, and Refund Policy referenced elsewhere on this page.</p>
+
+          <h4>1. Subscription Plans</h4>
+          <p>Aiclona offers Monthly, Quarterly, and Yearly plans. Each plan grants access to the entitlements described on the pricing section at the time of purchase, including the applicable seat count, feature set, and support level. Plan contents may evolve over time; entitlements in effect at the moment of purchase remain honoured for the paid billing cycle.</p>
+
+          <h4>2. Billing Cycle and Renewal</h4>
+          <p>Subscriptions are billed in advance at the start of each cycle. Unless cancelled before the renewal date, plans renew automatically for another cycle of the same length at the then-current published price. We will attempt to notify you before a material price change; continued use after the change constitutes acceptance of the new rate.</p>
+
+          <h4>3. Payment Method and Authorization</h4>
+          <p>By providing a payment method, you authorize us and our payment processor to charge the applicable fees, taxes, and any adjustments for renewals, upgrades, or overage. You are responsible for keeping payment details current. If a charge fails, we may retry the payment, suspend access, or terminate the subscription after a reasonable grace period.</p>
+
+          <h4>4. Taxes</h4>
+          <p>Prices displayed on the portal are exclusive of applicable sales tax, VAT, GST, or similar taxes unless explicitly stated. You are responsible for any such taxes assessed on your subscription, which will be added to the invoice where required by law.</p>
+
+          <h4>5. Upgrades, Downgrades, and Seat Changes</h4>
+          <p>You may upgrade to a longer cycle or higher tier at any time; the change takes effect immediately and the remaining value of the current cycle is prorated toward the new plan. Downgrades take effect at the start of the next cycle and do not generate a refund for the current one. Seat additions are prorated for the remainder of the cycle; seat reductions apply from the next cycle.</p>
+
+          <h4>6. Cancellation</h4>
+          <p>You may cancel a recurring subscription at any time from your account settings or by writing to service@aiclona.com. Cancellation stops the next automatic renewal and leaves the current paid cycle active until its natural end. Cancellation on its own is not a refund request; refund handling is governed by the Refund Policy.</p>
+
+          <h4>7. Free Trial and Promotional Offers</h4>
+          <p>Where a free trial or promotional discount is offered, the offer is limited to the terms displayed at the time of enrolment (duration, eligible plans, one-per-customer, etc.). At the end of a free trial, the subscription converts to a paid plan at the standard price unless cancelled before conversion. Promotional pricing applies only to the initial cycle unless explicitly stated.</p>
+
+          <h4>8. Suspension and Termination for Cause</h4>
+          <p>We may suspend or terminate a subscription without refund if you materially breach the Terms of Service or Acceptable Use policy, engage in fraudulent payment activity, or use the service in a way that endangers other users or the underlying infrastructure. Where practical, we will provide notice and an opportunity to cure before termination.</p>
+
+          <h4>9. Service Changes and Deprecation</h4>
+          <p>We may add, modify, or deprecate features to keep pace with the underlying Aiclona software. Where a deprecation materially reduces the value of an active plan, we will offer, at our discretion, a comparable substitute or a pro-rated refund of the affected portion of the cycle.</p>
+
+          <h4>10. Data on Termination</h4>
+          <p>Because Aiclona runs inside your own infrastructure, your documents, indexes, and chat history remain under your control after termination of the subscription. Paid entitlements (such as premium features or seat quotas granted through licensing keys) will stop functioning at the end of the last paid cycle.</p>
+
+          <h4>11. Third-Party Costs</h4>
+          <p>Charges from third-party model, embedding, storage, or infrastructure providers connected to your deployment are billed by those providers directly and are not covered by this Subscription Agreement. You are responsible for monitoring and paying those charges under the respective provider's terms.</p>
+
+          <h4>12. Changes to This Agreement</h4>
+          <p>We may update this Subscription Agreement to reflect changes in plans, pricing structure, or applicable regulations. The revised agreement applies to renewals and new purchases made after the revision date shown at the top of this section; existing paid cycles remain governed by the version in effect at the time of purchase.</p>
+
+          <h4>13. Contact</h4>
+          <p>Questions about this Subscription Agreement can be sent to service@aiclona.com.</p>
+        </article>
+        <article class="legal-card" id="cookie-policy">
+          <h3>Cookie Policy</h3>
+          <span class="legal-meta">Last updated: August 2026</span>
+          <p>This Cookie Policy explains how Aiclona uses cookies and similar local-storage technologies on this portal page. It should be read together with the Privacy Policy. By continuing to browse this site, you agree to the use of the cookies described below.</p>
+
+          <h4>1. What Are Cookies</h4>
+          <p>Cookies are small text files placed on your device by a website you visit. Similar technologies include local storage, session storage, and pixel tags. Together they allow a site to remember your actions and preferences (such as language, theme, and login state) over a period of time.</p>
+
+          <h4>2. Categories We Use</h4>
+          <ul>
+            <li><strong>Strictly necessary</strong> — required for the site to function, including session identifiers, security tokens, and load-balancer routing. These cannot be turned off.</li>
+            <li><strong>Preference</strong> — remember non-critical choices such as language and theme so the interface stays consistent across visits.</li>
+            <li><strong>Analytics</strong> — aggregate, non-identifying page-view and performance data used to improve navigation and content. Enabled only after consent where required by law.</li>
+            <li><strong>Marketing</strong> — currently not used on this portal. If introduced in the future, they will be listed here and gated behind explicit consent.</li>
+          </ul>
+
+          <h4>3. Third-Party Cookies</h4>
+          <p>Some pages may embed content from third parties (for example, video or code-snippet providers) that set their own cookies under their own privacy policies. We do not control those cookies and encourage you to review the relevant provider's policy before enabling them.</p>
+
+          <h4>4. Managing Your Choices</h4>
+          <p>Most browsers let you view, delete, or block cookies through their settings. Blocking strictly necessary cookies may prevent parts of the portal from working. Where a consent banner is presented, you may adjust your preferences at any time via the "Cookie preferences" link in the footer.</p>
+
+          <h4>5. Retention</h4>
+          <p>Session cookies are cleared when you close the browser. Persistent cookies expire after the period stated in the cookie itself, typically no longer than twelve (12) months, after which consent is requested again where required.</p>
+
+          <h4>6. Updates to This Policy</h4>
+          <p>We may update this Cookie Policy when we change the cookies we use or when regulations change. The revision date at the top of this section reflects the most recent update.</p>
+
+          <h4>7. Contact</h4>
+          <p>Questions about this Cookie Policy can be sent to service@aiclona.com.</p>
+        </article>
+        <article class="legal-card" id="acceptable-use-policy">
+          <h3>Acceptable Use Policy</h3>
+          <span class="legal-meta">Last updated: August 2026</span>
+          <p>This Acceptable Use Policy (AUP) sets out the activities that are prohibited when using the Aiclona portal, the Aiclona software, and any related services. It supplements the Terms of Service; violation of this AUP is a material breach of those Terms.</p>
+
+          <h4>1. Prohibited Content</h4>
+          <p>You may not ingest, index, generate, or distribute content that:</p>
+          <ul>
+            <li>Infringes intellectual-property rights or breaches confidentiality or non-disclosure obligations.</li>
+            <li>Is unlawful, defamatory, harassing, hateful, or that facilitates violence, discrimination, or the exploitation of minors.</li>
+            <li>Contains malware, ransomware, or code designed to compromise the security of another system.</li>
+            <li>Contains regulated personal or sensitive data processed without the required legal basis or safeguards.</li>
+          </ul>
+
+          <h4>2. Prohibited Activities</h4>
+          <ul>
+            <li>Scraping, crawling, or automatically extracting data from this portal beyond what is permitted by our robots directives.</li>
+            <li>Reverse-engineering, decompiling, or attempting to derive source code of paid components beyond what open-source licenses expressly allow.</li>
+            <li>Probing, penetration testing, or attacking any portion of the portal, our infrastructure, or connected third-party services without prior written authorization.</li>
+            <li>Circumventing authentication, rate limits, tenant isolation, quotas, or licensing controls.</li>
+            <li>Sending unsolicited bulk messages, spam, or phishing attempts through the service or through contact channels associated with it.</li>
+          </ul>
+
+          <h4>3. Model Misuse</h4>
+          <p>You may not use retrieval, generation, or agent features to:</p>
+          <ul>
+            <li>Automate large-scale generation of misleading political, financial, medical, or legal content.</li>
+            <li>Impersonate a real person or entity without their consent.</li>
+            <li>Extract or reconstruct training data of any connected third-party model in violation of that provider's terms.</li>
+          </ul>
+
+          <h4>4. Resource Fairness</h4>
+          <p>You agree not to intentionally consume shared portal resources in a way that degrades service for others, including running excessive concurrent requests, unbounded loops, or workloads that circumvent published plan limits.</p>
+
+          <h4>5. Reporting Abuse</h4>
+          <p>Reports of abuse, spam, or security concerns related to this portal or a deployment you administer can be sent to service@aiclona.com. We investigate reports in good faith and may share information with law-enforcement where required.</p>
+
+          <h4>6. Enforcement</h4>
+          <p>We may investigate suspected violations, remove offending content from portal-hosted surfaces, suspend or terminate accounts, revoke licensing keys, and pursue legal remedies. Where practical, we will provide notice and an opportunity to cure; egregious or repeat violations may result in immediate action without notice.</p>
+
+          <h4>7. Updates to This Policy</h4>
+          <p>We may update this AUP to reflect new abuse patterns or regulatory changes. Continued use of the portal after an update constitutes acceptance of the revised AUP.</p>
+
+          <h4>8. Contact</h4>
+          <p>Questions about this Acceptable Use Policy can be sent to service@aiclona.com.</p>
+        </article>
+        <article class="legal-card" id="data-processing-agreement">
+          <h3>Data Processing Agreement</h3>
+          <span class="legal-meta">Last updated: August 2026</span>
+          <p>This Data Processing Agreement (DPA) applies when Aiclona processes personal data on your behalf in connection with the portal or supporting services. It is entered into between you (the "Controller") and the Aiclona operator identified in the applicable order form (the "Processor"), and it supplements the Terms of Service.</p>
+
+          <h4>1. Scope and Roles</h4>
+          <p>This DPA governs the processing of personal data submitted by the Controller or its authorized users through the portal or through paid components of Aiclona. For the Aiclona software deployed inside the Controller's own infrastructure, the Controller acts as the sole controller and processor of personal data stored in that deployment; this DPA covers only the ancillary processing performed by us.</p>
+
+          <h4>2. Nature and Purpose of Processing</h4>
+          <p>The Processor processes personal data solely to (a) provide, secure, and support the subscribed services, (b) fulfil billing and account management obligations, and (c) comply with legal obligations. The subject matter, duration, categories of data subjects, and categories of personal data are described in the applicable order form or, in its absence, the portal's Privacy Policy.</p>
+
+          <h4>3. Controller Instructions</h4>
+          <p>The Processor processes personal data only on documented instructions from the Controller, including the acceptance of the Terms of Service and configuration choices made in the account settings. The Processor will inform the Controller if, in its opinion, an instruction infringes applicable data-protection law.</p>
+
+          <h4>4. Confidentiality</h4>
+          <p>Personnel authorized to process personal data are bound by written confidentiality obligations and receive appropriate data-protection training.</p>
+
+          <h4>5. Security Measures</h4>
+          <p>The Processor implements appropriate technical and organizational measures to protect personal data, including encryption in transit, access controls, least-privilege administration, logging, vulnerability management, backup, and incident-response procedures. A current summary is available on request.</p>
+
+          <h4>6. Sub-processors</h4>
+          <p>The Controller authorizes the use of sub-processors (for example, cloud hosting, payment processing, email delivery, and analytics providers) to deliver the services. A current sub-processor list is available on request. The Processor will provide reasonable prior notice of intended additions or replacements and will allow the Controller to object on reasonable data-protection grounds.</p>
+
+          <h4>7. International Transfers</h4>
+          <p>Where personal data is transferred outside the Controller's jurisdiction, the Processor relies on lawful transfer mechanisms such as Standard Contractual Clauses, adequacy decisions, or other approved safeguards, and applies supplementary measures where required.</p>
+
+          <h4>8. Data Subject Rights</h4>
+          <p>Taking into account the nature of the processing, the Processor assists the Controller by appropriate technical and organizational measures in fulfilling its obligation to respond to requests for exercising data-subject rights, including access, rectification, erasure, restriction, portability, and objection.</p>
+
+          <h4>9. Incident Notification</h4>
+          <p>The Processor notifies the Controller without undue delay after becoming aware of a personal-data breach affecting the services, providing the information reasonably needed for the Controller to fulfil its own notification obligations.</p>
+
+          <h4>10. Audit</h4>
+          <p>The Controller may audit the Processor's compliance with this DPA once per year, at the Controller's expense, on reasonable prior notice, subject to reasonable confidentiality and security constraints. Third-party audit reports may be provided in lieu of on-site audits where available.</p>
+
+          <h4>11. Return or Deletion</h4>
+          <p>Upon termination of the services, and at the Controller's choice, the Processor deletes or returns personal data processed on the Controller's behalf, except to the extent retention is required by law. Personal data stored inside the Controller's self-hosted Aiclona deployment remains under the Controller's control and is not affected by this section.</p>
+
+          <h4>12. Liability</h4>
+          <p>Each party's liability under this DPA is subject to the limitations set out in the Terms of Service or applicable order form. Nothing in this DPA excludes liability that cannot be limited under applicable law.</p>
+
+          <h4>13. Contact</h4>
+          <p>To execute this DPA or request the current sub-processor list, please contact service@aiclona.com.</p>
+        </article>
+        <article class="legal-card" id="sla">
+          <h3>Service Level Agreement</h3>
+          <span class="legal-meta">Last updated: August 2026</span>
+          <p>This Service Level Agreement (SLA) describes the availability commitment and service-credit remedy for paid Aiclona subscription plans purchased through this portal. It applies only to portal-hosted services (for example, the subscription management portal and any centrally hosted premium components), not to Aiclona software running inside the Controller's own infrastructure.</p>
+
+          <h4>1. Definitions</h4>
+          <ul>
+            <li><strong>Monthly Uptime Percentage</strong> — total minutes in a calendar month minus Downtime, divided by total minutes in the month.</li>
+            <li><strong>Downtime</strong> — sustained periods during which the covered portal-hosted service is unavailable to the Customer for reasons attributable to us, as measured by our monitoring systems.</li>
+            <li><strong>Excluded Downtime</strong> — see Section 4.</li>
+          </ul>
+
+          <h4>2. Availability Commitment</h4>
+          <p>We commit to a Monthly Uptime Percentage of at least <strong>99.5%</strong> for covered portal-hosted services.</p>
+
+          <h4>3. Service Credits</h4>
+          <p>If we fail to meet the commitment in a given calendar month, the Customer may claim a service credit against the affected plan's monthly fee:</p>
+          <ul>
+            <li>Uptime &lt; 99.5% and ≥ 99.0% — <strong>10%</strong> credit</li>
+            <li>Uptime &lt; 99.0% and ≥ 95.0% — <strong>25%</strong> credit</li>
+            <li>Uptime &lt; 95.0% — <strong>50%</strong> credit</li>
+          </ul>
+          <p>Service credits are the Customer's sole and exclusive remedy for availability shortfalls. Credits do not exceed the amount actually paid for the affected month and are applied to future invoices; they are not paid out in cash.</p>
+
+          <h4>4. Exclusions</h4>
+          <p>The following are excluded from Downtime calculations:</p>
+          <ul>
+            <li>Scheduled maintenance announced at least 48 hours in advance, or emergency maintenance to address security or integrity risks.</li>
+            <li>Force majeure events, including natural disasters, war, civil unrest, and internet-backbone outages.</li>
+            <li>Failures of third-party model, embedding, storage, or infrastructure providers connected to the Customer's own deployment.</li>
+            <li>Issues caused by the Customer's software, hardware, network, misconfiguration, or violation of the Acceptable Use Policy.</li>
+            <li>Suspension resulting from non-payment, security investigation, or lawful request.</li>
+          </ul>
+
+          <h4>5. Claim Procedure</h4>
+          <p>To claim a service credit, the Customer must submit a written request to service@aiclona.com within thirty (30) calendar days of the end of the affected month. The request must include the plan name, the affected dates and times, a description of the impact, and any supporting evidence. Approved credits are applied to the next invoice.</p>
+
+          <h4>6. Maintenance Windows</h4>
+          <p>We may schedule maintenance during low-traffic windows and will publish upcoming windows on the portal status area or by email. Emergency maintenance may be performed at any time to address a critical security or integrity issue.</p>
+
+          <h4>7. Changes to This SLA</h4>
+          <p>We may revise this SLA to reflect changes in service architecture or supported components. The revised SLA applies to renewals and new purchases made after the revision date; existing paid cycles remain governed by the version in effect at the time of purchase.</p>
+
+          <h4>8. Contact</h4>
+          <p>Questions about this SLA can be sent to service@aiclona.com.</p>
+        </article>
+        <article class="legal-card" id="ai-disclaimer">
+          <h3>AI Disclaimer</h3>
+          <span class="legal-meta">Last updated: August 2026</span>
+          <p>Aiclona uses retrieval-augmented generation (RAG), large language models (LLMs), embeddings, and related AI techniques to answer questions from your knowledge bases. This AI Disclaimer explains the inherent limitations of those techniques and your responsibilities when relying on their output.</p>
+
+          <h4>1. Outputs May Be Incorrect</h4>
+          <p>AI-generated outputs — including summaries, extracted answers, citations, tables, code, and translations — can be incomplete, out of date, biased, or entirely fabricated (commonly called "hallucinations"). Retrieval steps can also miss or misrank relevant passages. You are responsible for reviewing outputs before relying on them for consequential decisions.</p>
+
+          <h4>2. No Professional Advice</h4>
+          <p>Aiclona outputs do not constitute medical, legal, financial, tax, safety, engineering, or other professional advice, and are not a substitute for consultation with a qualified professional. Do not rely on Aiclona to make decisions that require professional judgement without independent verification by a suitably qualified human.</p>
+
+          <h4>3. Human Oversight</h4>
+          <p>You are expected to keep meaningful human oversight over AI-generated content, especially where the content will be used to (a) make automated decisions with legal or similarly significant effect on individuals, (b) support safety-critical processes, or (c) be published or distributed as authoritative material.</p>
+
+          <h4>4. Third-Party Model Behaviour</h4>
+          <p>When Aiclona is configured to use third-party model providers, output quality, latency, availability, safety filtering, and data handling depend on the selected provider. We do not control and are not responsible for the behaviour of third-party models; changes on the provider's side may alter outputs without notice.</p>
+
+          <h4>5. Bias and Sensitive Topics</h4>
+          <p>Language models can reflect biases present in their training data. Use appropriate caution when generating content about protected characteristics, minority groups, or contested topics, and apply your own review process before publishing such content.</p>
+
+          <h4>6. Confidentiality of Prompts</h4>
+          <p>Prompts, retrieved passages, and generated outputs may be transmitted to configured third-party providers. Do not include information you are not entitled to share with those providers, and configure retention and logging settings on both sides in a way consistent with your confidentiality obligations.</p>
+
+          <h4>7. Reserved Behaviours</h4>
+          <p>Aiclona may decline to answer, provide safety warnings, or apply guardrails on certain categories of requests. These behaviours are provided on a best-effort basis and should not be relied upon as a substitute for your own safety review.</p>
+
+          <h4>8. No Warranty on Outputs</h4>
+          <p>To the maximum extent permitted by law, AI-generated outputs are provided "as is" without warranty of accuracy, fitness for a particular purpose, or non-infringement, in accordance with the Terms of Service.</p>
+
+          <h4>9. Contact</h4>
+          <p>Questions about this AI Disclaimer can be sent to service@aiclona.com.</p>
+        </article>
       </div>
     </section>
   </main>
@@ -2770,9 +3067,16 @@
 
         <div class="footer-col">
           <h3>Legal</h3>
-          <ul>
+          <ul class="footer-legal-links">
             <li><a href="#privacy-policy">Privacy Policy</a></li>
             <li><a href="#terms-of-service">Terms of Service</a></li>
+            <li><a href="#refund-policy">Refund Policy</a></li>
+            <li><a href="#subscription-agreement">Subscription Agreement</a></li>
+            <li><a href="#cookie-policy">Cookie Policy</a></li>
+            <li><a href="#acceptable-use-policy">Acceptable Use Policy</a></li>
+            <li><a href="#data-processing-agreement">Data Processing Agreement</a></li>
+            <li><a href="#sla">Service Level Agreement</a></li>
+            <li><a href="#ai-disclaimer">AI Disclaimer</a></li>
           </ul>
         </div>
       </div>
