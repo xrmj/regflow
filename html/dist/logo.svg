@@ -1,0 +1,13 @@
+<svg width="32" height="34" viewBox="0 0 32 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="ragflow-grad" x1="0" y1="0" x2="32" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#53B1FD" />
+      <stop offset="1" stop-color="#1570EF" />
+    </linearGradient>
+  </defs>
+  <path d="M4 8.5L16 2L28 8.5L16 15L4 8.5Z" fill="url(#ragflow-grad)" />
+  <path d="M4 17L16 23.5L28 17" stroke="#1570EF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.75" />
+  <path d="M4 25.5L16 32L28 25.5" stroke="#53B1FD" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" fill="none" opacity="0.55" />
+  <circle cx="16" cy="8.5" r="2.2" fill="#FFFFFF" />
+  <circle cx="16" cy="8.5" r="1" fill="#1570EF" />
+</svg>

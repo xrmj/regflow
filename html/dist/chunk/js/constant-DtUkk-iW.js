@@ -1,0 +1,2 @@
+var e=(e=>(e.Full="full",e.Ellipse="ellipse",e))(e||{}),t=(e=>(e.begin="file",e.parser="parser",e.contextGenerator="extractor",e.titleChunker="titleChunker",e.tokenChunker="tokenChunker",e.tokenizer="tokenizer",e.compiler="compiler",e.end="end",e))(t||{}),n=(e=>(e.DocumentId="doc_id",e.KnowledgeId="knowledgeId",e.Type="type",e.IsReadOnly="is_read_only",e.AgentId="agent_id",e.AgentTitle="agent_title",e.CreatedBy="created_by",e.DocumentExtension="extension",e))(n||{});export{e as C,n as P,t as T};
+//# sourceMappingURL=constant-DtUkk-iW.js.map

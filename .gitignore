@@ -165,6 +165,7 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+!html/dist/
 ragflow_cli.egg-info
 # Gatsby files
 .cache/

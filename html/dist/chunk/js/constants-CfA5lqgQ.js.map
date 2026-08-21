@@ -1,0 +1,1 @@
+{"version":3,"file":"constants-CfA5lqgQ.js","sources":["../../../src/pages/user-setting/profile/constants.ts"],"sourcesContent":["export const NICKNAME_MAX_LENGTH = 100;\r\n\r\nexport const NICKNAME_PATTERN = /^[\\p{L}\\p{N} ._'-]+$/u;\r\n"],"names":["NICKNAME_MAX_LENGTH","NICKNAME_PATTERN"],"mappings":"AAAO,MAAMA,EAAsB,IAEtBC,EAAmB"}

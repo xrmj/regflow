@@ -1,0 +1,2 @@
+import{k as s}from"./use-agent-request-BUwQ2U7M.js";import{r as e}from"./react-B-v8ejWP.js";import{d as t}from"./dsl-bridge-D2EedblM.js";import{u as o}from"./store-CVeWM7YH.js";const r=()=>{const{loading:r,data:a,refetch:d}=s(),f=(()=>{const{setEdges:s,setNodes:t}=o(s=>s);return e.useCallback(({nodes:e=[],edges:o=[]})=>{t(e),s(o)},[s,t])})();return e.useEffect(()=>{f(t(null==a?void 0:a.dsl))},[f,a]),e.useEffect(()=>{d()},[d]),{loading:r,flowDetail:a}};export{r as u};
+//# sourceMappingURL=use-fetch-data-CPLcDfou.js.map

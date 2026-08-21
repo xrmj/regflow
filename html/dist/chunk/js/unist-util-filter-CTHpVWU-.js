@@ -1,0 +1,2 @@
+import{c as n}from"./unist-util-is-C5Jwnfs7.js";const t={}.hasOwnProperty;function r(r,e,c){const i=n(e),o=e&&"object"==typeof e&&"cascade"in e?e.cascade:void 0,l=null==o||o;return function n(r,e,c){const o=[];if(!i(r,e,c))return;if(function(n){return"children"in n&&void 0!==n.children}(r)){let t=-1;for(;++t<r.children.length;){const e=n(r.children[t],t,r);e&&o.push(e)}if(l&&r.children.length>0&&0===o.length)return}const s={};let u;for(u in r)t.call(r,u)&&(s[u]="children"===u?o:r[u]);return s}(r)}export{r as f};
+//# sourceMappingURL=unist-util-filter-CTHpVWU-.js.map

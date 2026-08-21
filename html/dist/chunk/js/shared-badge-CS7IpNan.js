@@ -1,0 +1,2 @@
+import{j as t}from"./react-B-v8ejWP.js";import{a as e}from"./use-user-setting-request-yLLC7hvQ.js";function a({children:a}){const{data:n}=e();return"string"==typeof a&&n.nickname===a?null:t.jsx("span",{"data-inspector-line":"12","data-inspector-column":"4","data-inspector-relative-path":"src\\\\components\\\\shared-badge.tsx",title:"string"==typeof a?a:void 0,className:"inline-block max-w-[120px] truncate align-middle bg-bg-card rounded-sm px-1 text-xs",children:a})}export{a as S};
+//# sourceMappingURL=shared-badge-CS7IpNan.js.map

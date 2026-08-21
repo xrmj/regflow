@@ -1,0 +1,2 @@
+const r=[[1536,1791],[1872,1919],[2208,2303],[64336,65023],[65136,65279],[1424,1535],[64285,64335],[1792,1871],[1920,1983],[2112,2143],[2144,2159]],t=t=>r.some(([r,n])=>t>=r&&t<=n),n=r=>{const n=(r=>{if(!r)return"neutral";for(const n of r){const r=n.charCodeAt(0);if(!(r<=64||r>=91&&r<=96||r>=123&&r<=127)){if(t(r))return"rtl";if(r>=65&&r<=90||r>=97&&r<=122||r>=192&&r<=591||r>=880&&r<=1023||r>=1024&&r<=1279)return"ltr"}}return"neutral"})(r);return"neutral"===n?"auto":n};export{n as g};
+//# sourceMappingURL=text-direction-CmdIJsk7.js.map

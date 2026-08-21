@@ -1,0 +1,2 @@
+import{r as e,j as t}from"./react-B-v8ejWP.js";const o=e.createContext(void 0),a=({children:e,knowledgeBase:a,loading:s})=>t.jsx(o.Provider,{"data-inspector-line":"19","data-inspector-column":"4","data-inspector-relative-path":"src\\\\pages\\\\dataset\\\\contexts\\\\knowledge-base-context.tsx",value:{knowledgeBase:a,loading:s},children:e}),s=()=>{const t=e.useContext(o);if(void 0===t)throw new Error("useKnowledgeBaseContext must be used within a KnowledgeBaseProvider");return t};export{a as K,s as u};
+//# sourceMappingURL=knowledge-base-context-BrMc_-6j.js.map
