@@ -154,7 +154,7 @@ const routeConfigOptions = [
   {
     path: Routes.Root,
     layout: false,
-    Component: () => import('@/pages/root-page'),
+    Component: () => import('@/layouts/root-layout'),
     loader: ({ request }: { request: Request }) => {
       const url = new URL(request.url);
       const auth = url.searchParams.get('auth');
@@ -165,6 +165,12 @@ const routeConfigOptions = [
       }
       return null;
     },
+    children: [
+      {
+        path: Routes.Root,
+        Component: () => import('@/pages/home'),
+      },
+    ],
   },
   {
     path: Routes.Chat + '/:id',

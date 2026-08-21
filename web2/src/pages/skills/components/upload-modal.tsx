@@ -646,7 +646,7 @@ const UploadModal: React.FC<UploadModalProps> = ({
       );
 
       // 4. Upload to RAGFlow
-      setGitProgress('Uploading to LocalSpace...');
+      setGitProgress('Uploading to Aiclona...');
       const skillName =
         validation.name || repo.toLowerCase().replace(/[^a-z0-9_-]/g, '-');
 

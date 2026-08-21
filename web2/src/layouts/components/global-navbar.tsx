@@ -267,7 +267,7 @@ export function MobileNavbar({ renderFooter }: MobileNavbarProps) {
         className="flex w-[min(85vw,18rem)] flex-col gap-0 p-0 sm:w-72"
       >
         <div className="flex shrink-0 justify-center py-5">
-          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="LocalSpace logo" className="size-9" />
+          <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Aiclona logo" className="size-9" />
         </div>
 
         <nav className="min-h-0 flex-1 overflow-y-auto py-3">

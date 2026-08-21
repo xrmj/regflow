@@ -74,7 +74,7 @@ export function Header({
               aria-current={pathname === Routes.Root ? 'page' : undefined}
               className="flex size-10 shrink-0 items-center justify-center"
             >
-              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="LocalSpace logo" className="size-10" />
+              <img src={`${import.meta.env.BASE_URL}logo.svg`} alt="Aiclona logo" className="size-10" />
             </Link>
           </div>
         </div>

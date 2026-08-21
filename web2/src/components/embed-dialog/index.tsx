@@ -435,7 +435,7 @@ window.addEventListener('message',e=>{
                       name="widgetFooterText"
                       label="Footer text"
                     >
-                      <Input placeholder="Powered by LocalSpace"></Input>
+                      <Input placeholder="Powered by Aiclona"></Input>
                     </RAGFlowFormItem>
                     <RAGFlowFormItem
                       name="widgetFooterLink"

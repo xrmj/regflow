@@ -1,2 +1,0 @@
-import{j as r}from"./react-B-v8ejWP.js";import{c as e}from"../../entry/js/index-g9m8xDGX.js";function o({children:o,show:t=!0,className:s}){return t?r.jsx("section",{"data-inspector-line":"15","data-inspector-column":"4","data-inspector-relative-path":"src\\\\components\\\\form-container.tsx",className:e("border-0.5 border-border-button rounded-lg p-5 space-y-5",s),children:o}):o}export{o as F};
-//# sourceMappingURL=form-container-BqC9A314.js.map
